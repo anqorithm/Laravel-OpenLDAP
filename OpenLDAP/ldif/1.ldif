@@ -1,0 +1,41 @@
+dn: dc=anq,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: ANQ
+dc: anq
+
+dn: cn=admin,dc=anq,dc=com
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword: {SSHA}password
+
+dn: ou=users,dc=anq,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=groups,dc=anq,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=Engineering,dc=anq,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Engineering
+
+dn: uid=abdullah.alqahtani,ou=Engineering,dc=anq,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Abdullah Alqahtani
+sn: Alqahtani
+givenName: Abdullah
+uid: abdullah.alqahtani
+mail: abdullah.alqahtani@anq.com
+userPassword: {SSHA}password
+departmentNumber: Engineering
