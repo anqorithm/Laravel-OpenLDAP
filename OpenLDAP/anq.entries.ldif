@@ -1,0 +1,59 @@
+dn: ou=Engineering,dc=anq,dc=com
+objectClass: organizationalUnit
+ou: Engineering
+
+dn: ou=Product,dc=anq,dc=com
+objectClass: organizationalUnit
+ou: Product
+
+dn: ou=Financial Analysis,dc=anq,dc=com
+objectClass: organizationalUnit
+ou: Financial Analysis
+
+dn: uid=abdullah.alqahtani,ou=Engineering,dc=anq,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: abdullah.alqahtani
+sn: Alqahtani
+givenName: Abdullah
+cn: Abdullah Alqahtani
+displayName: Abdullah Alqahtani
+uidNumber: 10000
+gidNumber: 5000
+userPassword: {SSHA}5ravvW53pHzMCUBPjTyf3Tnph0GHrpn7
+gecos: Abdullah Alqahtani
+loginShell: /bin/bash
+homeDirectory: /home/abdullah.alqahtani
+
+dn: uid=mohammed.ahmed,ou=Product,dc=anq,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mohammed.ahmed
+sn: Ahmed
+givenName: Mohammed
+cn: Mohammed Ahmed
+displayName: Mohammed Ahmed
+uidNumber: 10001
+gidNumber: 5000
+userPassword: {SSHA}5ravvW53pHzMCUBPjTyf3Tnph0GHrpn7
+gecos: Mohammed Ahmed
+loginShell: /bin/bash
+homeDirectory: /home/mohammed.ahmed
+
+dn: uid=fatima.ali,ou=Financial Analysis,dc=anq,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: fatima.ali
+sn: Ali
+givenName: Fatima
+cn: Fatima Ali
+displayName: Fatima Ali
+uidNumber: 10002
+gidNumber: 5000
+userPassword: {SSHA}5ravvW53pHzMCUBPjTyf3Tnph0GHrpn7
+gecos: Fatima Ali
+loginShell: /bin/bash
+homeDirectory: /home/fatima.ali
